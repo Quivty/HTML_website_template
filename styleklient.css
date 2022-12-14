@@ -1,0 +1,122 @@
+body{
+    background: black;
+    display: grid;
+    justify-content: center;
+    color: #f77a71;
+    font-family: 'Work Sans', sans-serif;
+}
+/*#f77a71*/
+.wrapper{
+    background-color: black;
+    width: 1200px;
+    height: auto;
+}
+
+    header{
+        background-color: rgb(32, 32, 32);
+        padding: 5px 30px;
+        margin: 5px;
+        font-size: 22px; 
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+        .title{
+            color: #d6493f;
+            text-decoration: none;
+        }
+
+        .cursor{
+            width:25px;
+            height:25px;
+        }
+
+    nav{
+        background-color: rgb(32, 32, 32);
+        padding: 30px 0px;
+        margin: 5px;
+        display: grid;
+        grid-gap: 50px;
+        justify-content: center;
+        grid-auto-flow: column;
+    }
+
+        .navigator{
+            color: lightgray;
+            text-decoration: none;
+            font-size: 25px;
+            transition: 0.3s;
+        }
+
+        .navigator:hover{
+            color: #d6493f;
+        }
+
+        .right{
+            float: right;
+            justify-self: end;
+            align-self: center;    
+        }
+
+    main{
+        display: grid;
+        padding: 5px;
+        margin: 5px;
+        background-color: rgb(32, 32, 32);
+        grid-auto-flow: row;
+        grid-gap: 5px;
+    }
+
+        h1{
+            text-align: center;
+        }
+
+        article{
+            background-color: rgb(48, 48, 48);
+            display: grid;
+            color: lightgray;
+            justify-content: center;
+            padding: 1vh 5vw;
+        }
+
+        .galeria{
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 80px;
+        }
+        
+    footer{
+        background-color: rgb(32, 32, 32);
+        padding: 5px;
+        margin: 5px;
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+        .footerlist{
+            list-style-type: none;
+            text-align: center;
+            width: auto;
+            height: auto;
+        }
+            .footerlink{
+                color: lightgray;
+                transition: 0.3s;
+                text-decoration: none;
+            }
+            .footerlink:hover{
+                color: #d6493f;
+            }
+    
+            #fb:hover{
+                color: rgb(69, 69, 194);
+
+            }
+
+            #ig:hover{
+                color: rgb(223, 72, 228);
+            }
+
+
+
+/*#23CC21*/
